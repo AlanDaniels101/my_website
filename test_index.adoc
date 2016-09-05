@@ -1,0 +1,18 @@
+= Hello, AsciiDoc!
+Doc Writer <doc@example.com>
+
+An introduction to http://asciidoc.org[AsciiDoc].
+
+== First Section
+
+* item 1
+* item 2
+
+[source,ruby]
+puts "Hello, World!"
+
+[source,c]
+unsigned int i=0;
+
+[source,java]
+unsigned int i=0;
