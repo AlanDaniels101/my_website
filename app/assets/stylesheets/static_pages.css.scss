@@ -1,3 +1,69 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#title {
+  font-family: "Cambria", Arial, sans-serif; 
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 2s steps(60, end); 
+  animation-fill-mode: both;
+}
+
+@keyframes type{
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+#header {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  float: center;
+  visibility: visible; /* hidden for debug */
+}
+
+#header-line {
+  position: element(#title);
+  visibility: visible; /* hidden for debug */
+}
+
+#begin-button {
+  position: absolute;
+  font-family: "Cambria", Arial, sans-serif; 
+  float: center;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  visibility: visible; /* hidden for debug */
+}
+
+#BSOD {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: -1;
+  visibility: hidden;
+}
+
+.centered-image {
+  margin: auto;
+  text-align: center;
+}
+
+#one {
+  visibility: hidden; 
+}
+
+#two {
+  visibility: hidden;
+}
+
+#three {
+  visibility: hidden;
+}
+
+#four {
+  visibility: hidden;
+}

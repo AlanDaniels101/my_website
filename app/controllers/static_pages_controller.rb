@@ -7,4 +7,7 @@ class StaticPagesController < ApplicationController
 
   def projects
   end
+
+  def interactive_resume
+  end
 end
