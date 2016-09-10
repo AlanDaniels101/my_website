@@ -5,8 +5,12 @@
 				<nav>
 					<ul class="nav pull-right">
 						<li><%= link_to "Home",		root_path %></li>
-						<li><%= link_to "Animated Resume",	interactive_resume_path %></li>
-						<li><a href="/AlanDaniels_Resume.pdf">Resume (PDF)</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Resume<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><%= link_to "Animated Resume",	interactive_resume_path %></li>
+							<li><a href="/AlanDaniels_Resume.pdf">Professional Resume (PDF)</a></li>
+						</ul>
 						<li><%= link_to "Projects", projects_path %></li>
 					</ul>
 				</nav>
