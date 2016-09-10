@@ -8,7 +8,11 @@
 <img id="BSOD" src="BSOD.png"/>
 
 <div id="one">
-  <h1>Kernel-mode Driver Development Intern @ AMD</h1>
+  <h1>
+    <a href="#" id="toggle-triangle-one" class="toggle-title toggle-triangle" onclick="toggle1()">&#9650;</a>
+    <a href="#" class="toggle-title" onclick="toggle1()">Kernel-mode Driver Development Intern @ AMD</a>
+  </h1>
+  <div id="one-body">
   <p>
     Fixing <b>a lot</b> of those.
   </p>
@@ -60,9 +64,14 @@
   </h7>
   <hr>
 </div>
+</div>
 
 <div id="two">
-  <h1>Hacker Academy</h1>
+  <h1>
+    <a href="#" id="toggle-triangle-two" class="toggle-title toggle-triangle" onclick="toggle2()">&#9650;</a>
+    <a href="#" class="toggle-title" onclick="toggle2()">Hacker Academy</a>
+  </h1>
+  <div id="two-body">
   <p>
     Check us out at <a href="https://www.hackeracademy.org/">hackeracademy.org</a>
   </p>
@@ -113,9 +122,14 @@
   </h7>
   <hr>
 </div>
+</div>
 
 <div id="three">
-  <h1>University of Toronto Engineering Design Projects</h1>
+  <h1>
+    <a href="#" id="toggle-triangle-three" class="toggle-title toggle-triangle" onclick="toggle3()">&#9650;</a>
+    <a href="#" class="toggle-title" onclick="toggle3()">University of Toronto Engineering Design Projects</a>
+  </h1>
+  <div id="three-body">
   <p> 
     Check out my <%= link_to "Projects", projects_path %> for more details.
   </p>
@@ -130,6 +144,7 @@
     <li>Worked with a team of three to build a complex machine</li>
     <li>Developed knowledge of electromechanical design, circuitry, and microprocessor functionality</li>
   </ul>
+
   <h3>UTEK - Designing a Personal Vehicle for Extreme Conditions</h3>
   <ul>
     <li>Produced a design prototype and product pitch in a team of four</li>
@@ -144,7 +159,11 @@
 </div>
 
 <div id="four">
-  <h1>Software Projects</h1>
+  <h1>
+    <a href="#" id="toggle-triangle-four" class="toggle-title toggle-triangle" onclick="toggle4()">&#9650;</a>
+    <a href="#" class="toggle-title" onclick="toggle4()">Software Projects</a>
+  </h1>
+  <div id="four-body">
   <p> 
     Check out my <%= link_to "Projects", projects_path %> for more details.
   </p>
@@ -157,7 +176,7 @@
   <h3>Shoot'em Up Game</h3>
   <ul>
     <li>Developed a scrolling shoot'em up game in Java, sprites provided by <a href="https://www.bigvikinggames.com/">Big Viking Games</a></li>
-    <li>Download it here (coming soon) or play it on my <%= link_to "Projects", projects_path %>  page </li>
+    <li>Play it on my <%= link_to "Projects", projects_path %>  page </li>
   </ul>
   <div class="centered-image">
     <img src="BVG Screenshot.png">
@@ -173,4 +192,5 @@
     <li>Developed a game (Gomoku) app for the Windows Phone 8 in a team of three</li>
   </ul>
   <h3>This Website &#9786;</h3>
+</div>
 </div>

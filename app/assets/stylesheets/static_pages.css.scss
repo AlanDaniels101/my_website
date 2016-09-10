@@ -67,3 +67,22 @@
 #four {
   visibility: hidden;
 }
+
+.toggle-title {
+  color: #333333;
+  &:hover {
+    color: #333333;
+  }
+  &:focus {
+    color: #333333;
+  }
+}
+
+.toggle-triangle {
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus {
+    text-decoration: none;
+  }
+  }
